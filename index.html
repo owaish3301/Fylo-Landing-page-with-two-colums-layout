@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="text-center">
+    <div class="row">
+      <div class="col-auto gx-2">
+        <img src="images\logo.svg" alt="logo" id="site-logo">
+      </div>
+      <div class="col"></div>
+      <div class="col-auto gx-3">
+        Features
+      </div>
+      <div class="col-auto gx-3">
+        Team
+      </div>
+      <div class="col-auto gx-3">
+        Sign In
+      </div>
+    </div>
+  </nav>
+
+  <header class="header-card">
+    <div class="row justify-content-between">
+      <div class="col-12 col-sm-5 order-sm-1">
+        <img src="images\illustration-1.svg" alt="illustration-1" id="illustration-1">
+      </div>
+      <div class="col-12 col-sm-5 order-sm-0">
+        <p class="header-text">All your files in one secure location, accessible anywhere.</p>
+        <p class="header-body">Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
+        
+        <div class="submit-email-container">  
+          <input type="email" id="email-input" name="email" placeholder="Enter your email...">
+          <p id="email-warning-mobile">Please check your email</p>
+          <input type="submit" id="submit-email" name="get-started" value="Get Started">
+        </div>
+        <p id="email-warning-pc">Please check your email</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="top-background-main"></div>
+    <div class="container-fluid">
+      <div class="row main-illustration">
+        <div class="col-12 col-sm-6 order-sm-1 gy-sm-4">
+          <img src="images\illustration-2.svg" alt="illustration-2" id="illustration-2">
+        </div>
+        <div class="col-12 col-sm-6 order-sm-0">
+          <div class="row main-content">
+            <div class="col-12">
+              <p id="main-header">Stay productive, wherever you are</p>
+            </div>
+            <div class="col-12 col-sm-10">
+              <p class="header-body">Never let location be an issue when accessing your files. Fylo has you 
+                covered for all of your file storage needs.</p>
+              <p class="header-body">Securely share files and folders with friends, family and colleagues for 
+                live collaboration. No email attachments required!</p>
+            </div>
+            <div class="col-12">
+              <a href="#icon-quotes">    <p id="link-para">See how Fylo works</p>  
+              <img src="images\icon-arrow.svg" alt="icon-arrow" id="icon-arrow">    </a>
+            </div>
+            <div class="col-12">
+              <div class="testimonial-card-container">
+                <div class="testimonial-card-header">
+                  <img src="images\icon-quotes.svg" alt="icon-quotes" id="icon-quotes">
+                  <p class="header-body">Fylo has improved our team productivity by an order of magnitude. Since 
+                    making the switch our team has become a well-oiled collaboration machine.</p>
+                </div>
+                <div class="testimonial-card-footer">
+                  <div class="profile-pic">
+                    <img src="images\avatar-testimonial.jpg" alt="avatar-testimonial" id="avatar-testimonial">
+                  </div>
+                  <div class="author-info">
+                    <p class="header-text author-name">Kyle Burton</p>
+                    <p class="header-body">Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <div class="row justify-content-sm-between offer-container">
+    <div class="col-12 col-sm-5 left-side-container">
+      <p class="header-text">Get early access today</p>
+      <p class="header-body offer-body">It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.</p>
+    </div>
+    <div class="col-12 col-sm-5 right-side-container">
+      <div class="submit-email-container-2">  
+        <input type="email" id="email-input-2" name="email" placeholder="email@example.com">
+        <p id="email-warning-2">Please check ypur email</p>
+        <input type="submit" id="submit-email-2" name="get-started" value="Get Started For Free">
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="text-sm-center">
+    <div class="row">
+      <div class="col-12 col-sm-3">
+        <div class="white-logo-container">
+          <img src="images\white-logo.svg" alt="logo" id="white-site-logo">
+        </div>
+        <div class="ph-no-container">
+          <img src="images\icon-phone.svg" alt="icon-phone" id="icon-phone">
+          <p>Phone: +1-543-123-4567</p>
+        </div>
+        <div class="email-container">
+          <img src="images/icon-email.svg" alt="icon-email" id="icon-email">
+          <p>example@fylo.com</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3 align-self-sm-end more-info-container">
+        <p>About Us</p>
+        <p>Jobs</p>
+        <p>Press</p>
+        <p>Blog</p>
+      </div>
+      <div class="col-12 col-sm-3 align-self-sm-end privacy-policy-container">
+        <p>Contact Us</p>
+        <p>Terms</p>
+        <p>Privacy</p>
+      </div>
+      <div class="col-12 col-sm-3 align-self-sm-center logos-container">
+        <i class="fa-brands fa-facebook-f fb-icon" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-twitter twitter-icon" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-instagram insta-icon" style="color: #ffffff;"></i>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="email-validator.js"></script>
+  <script src="https://kit.fontawesome.com/742192285b.js" crossorigin="anonymous"></script>
+</body>
+</html>
